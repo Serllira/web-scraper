@@ -1,0 +1,35 @@
+{
+  "name": "webscraper",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "better-queue": "^3.8.10",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fs-cheerio": "^3.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "js-queue": "^2.0.0",
+    "mongodb": "^3.3.5",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
+    "queue": "^6.0.1",
+    "request": "^2.88.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://sergioballines@bitbucket.org/leker/webscraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/leker/webscraper#readme",
+  "description": ""
+}

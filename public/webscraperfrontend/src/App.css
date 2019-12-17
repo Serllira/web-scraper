@@ -1,0 +1,216 @@
+html, body, #root {
+  margin: 0;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 275px auto;
+  color: #17252A;
+}
+
+
+/***********************Clases del sideMenu"********************************/
+.sideMenu{
+  background-color: #2B7A78;
+  grid-column: 1;
+  padding: 30px;
+}
+
+.listSeparator{
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
+.MuiButton-root{
+  background-color: #2B7A78 !important;
+}
+
+.MuiButton-root:hover{
+  background-color: #3AAFA9 !important;
+}
+
+.MuiListItemText-root{
+  color: white;
+}
+/***********************Fin Clases del sideMenu"********************************/
+
+/***********************Clases de la opcion "Realizar búsqueda"********************************/
+
+.title-search-page{
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.letter{
+  font-size: 80px;
+}
+
+.letter:nth-child(even) {
+   color: #a6a6a6;
+ }
+
+.search-container{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.searchField{
+  width: 380px;
+}
+
+.search-separator{
+  min-width: 10px;
+}
+
+.send-button{
+  margin-top: 10px;
+}
+
+.MuiSnackbar-root {
+  right: 400px !important;
+  text-align: center;
+  bottom: 150px !important;
+  left: auto !important;
+}
+
+.MuiSnackbarContent-root{
+  background-color: #3AAFA9 !important;
+  font-size: 16px;
+  max-width: 120px;
+}
+
+.onSearchMessage{
+  text-align: center;
+}
+
+/***********************Fin de clases de la opcion "Realizar búsqueda"********************************/
+
+/***********************Clases de la opcion "Ver todos los resultados"********************************/
+
+.pageContainer{
+  margin-top: 50px;
+}
+
+.search-bar{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data-container{
+  text-align: center;
+}
+
+.MuiCircularProgress-root {
+  display: inline-block;
+  margin-top: 45vh;
+  margin-left: 39vw;
+  min-width: 60px;
+}
+
+.MuiTablePagination-root{
+  background-color: lightgray;
+}
+
+.table-img-cell{
+  max-width: 50px;
+}
+
+.table-cell{
+  display: block;
+  max-width: 170px;
+  word-break: break-word;
+}
+.MuiTableCell-root{
+  max-width: 170px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-input{
+  min-width: 350px !important;
+}
+
+.search-input-loading{
+  max-width: 25px !important;
+  min-width: 25px !important;
+  max-height: 25px !important;
+  min-height: 25px !important;
+  float: right;
+  margin-top: -40px;
+  margin-right: 490px;
+}
+
+/****************************Clases de la opcion "Ver resultado de ID"**************************************/
+
+.product-imagen{
+  max-width: 470px;
+  min-width: 470px;
+  max-height: 470px;
+  min-height: 470px;
+  margin-top: 55px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left
+}
+
+.image{
+  max-width: 470px;
+  min-width: 470px;
+  max-height: 470px;
+  min-height: 470px;
+}
+
+.details-card{
+  margin-left: 675px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 675px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 10px;
+}
+
+.details-card-title, .product-details-title{
+  background-color: #3AAFA9;
+  color: white;
+  height: 65px;
+  text-align: center;
+  max-width: 675px;
+  padding-top: 1px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.search-details, .product-details{
+  margin-left: 20px;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+.details-card-tag{
+  font-weight: bold;
+}
+
+.product-details-url:hover{
+  color: #529492;
+}
+
+.details-card-no-result{
+  color: grey;
+}
+
+.backArrow-container{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.backArrow{
+  max-width: 30px;
+  max-height: 30px;
+}
