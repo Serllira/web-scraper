@@ -67,7 +67,7 @@ class Queue {
         console.log('End');
 
         await db.connect();
-        //await db.addResults('busquedas', result);
+        await db.addResults('busquedas', result);
         //await db.getAllResults('busquedas');
         //await db.getResultById("busquedas", '5de51f02c4c21487185b7b7f')
         //await db.getResultBySearch("busquedas", 'Bague')

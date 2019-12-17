@@ -61,7 +61,7 @@ export default function Buscar() {
                         onClose={handleNotificationClose}
                         variant="success"
                         message={"Iniciando la búsqueda de " + inputValue}
-                        className="onSearchMessage">
+                        className="searchMessage">
                     </Snackbar> :
 
                     <Snackbar
@@ -73,8 +73,8 @@ export default function Buscar() {
                         autoHideDuration={2500}
                         onClose={handleNotificationClose}
                         variant="success"
-                        message={"Introduce un termino en el buscador"}
-                        className="onSearchMessage">
+                        message={"Introduce un término en el buscador"}
+                        className="searchMessage">
                     </Snackbar>
                 }
             </div>

@@ -85,8 +85,10 @@ a{
   max-width: 120px;
 }
 
-.onSearchMessage{
-  text-align: center;
+.searchMessage{
+  /*text-align: center;*/
+  margin-right: -175px;
+  margin-bottom: -80px;
 }
 
 /***********************Fin de clases de la opcion "Realizar búsqueda"********************************/
@@ -144,34 +146,34 @@ a{
   min-height: 25px !important;
   float: right;
   margin-top: -40px;
-  margin-right: 490px;
+  margin-right: 320px;
 }
 
 /****************************Clases de la opcion "Ver resultado de ID"**************************************/
 
 .product-imagen{
-  max-width: 470px;
-  min-width: 470px;
-  max-height: 470px;
-  min-height: 470px;
+  max-width: 370px;
+  min-width: 370px;
+  max-height: 370px;
+  min-height: 370px;
   margin-top: 55px;
-  margin-left: 100px;
+  margin-left: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: left
 }
 
 .image{
-  max-width: 470px;
-  min-width: 470px;
-  max-height: 470px;
-  min-height: 470px;
+  max-width: 370px;
+  min-width: 370px;
+  max-height: 370px;
+  min-height: 370px;
 }
 
 .details-card{
-  margin-left: 675px;
+  margin-left: 500px;
   margin-top: 50px;
   margin-bottom: 50px;
-  max-width: 675px;
+  max-width: 550px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-bottom: 10px;
 }
@@ -179,18 +181,19 @@ a{
 .details-card-title, .product-details-title{
   background-color: #3AAFA9;
   color: white;
-  height: 65px;
+  height: 60px;
   text-align: center;
   max-width: 675px;
   padding-top: 1px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .search-details, .product-details{
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 16px;
   padding-right: 20px;
+  word-break: break-word;
 }
 
 .details-card-tag{
@@ -206,8 +209,8 @@ a{
 }
 
 .backArrow-container{
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .backArrow{
