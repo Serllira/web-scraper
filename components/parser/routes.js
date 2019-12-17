@@ -6,19 +6,19 @@ const Database = require('../../db');
 const db = new Database();
 let queue = new Queue();
 
-router.post('/', async (req, res, next) => {
+router.post('/services', async (req, res, next) => {
     const {q} = req.body;
     queue.push(new Date(), q, 'pendiente', 0, []);
     res.send({ok: true});
 });
 
-router.get('/', async (req, res, next) => {
+router.get('/services', async (req, res, next) => {
     await db.connect();
     let data = await db.getAllResults('busquedas');
     res.send({data});
 });
 
-router.get('/search', async (req, res, next) => {
+router.get('/services/search', async (req, res, next) => {
     const nombre = req.query.nombre;
     const id = req.query.id
     let data;
