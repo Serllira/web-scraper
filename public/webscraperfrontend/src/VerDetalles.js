@@ -11,7 +11,7 @@ export default function VerDetalles() {
     const [rows, setRows] = useState(null);
 
     async function getDataById() {
-        const response = await axios.get('/api/search?id=' + id)
+        const response = await axios.get('/api/services/search?id=' + id)
         return response.data;
     }
 

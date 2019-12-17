@@ -9,7 +9,7 @@ export default function Buscar() {
     const [open, setOpen] = React.useState(false);
     const searchTerm = (inputValue) => {
         setOpen(true);
-        axios.post('/api', {q: inputValue});
+        axios.post('/api/services', {q: inputValue});
     };
 
     const handleNotificationClose = (event, reason) => {

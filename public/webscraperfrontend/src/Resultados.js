@@ -69,7 +69,7 @@ export default function Resultados() {
     };
 
     async function getData() {
-        const response = await axios.get('/api')
+        const response = await axios.get('/api/services')
         return response.data;
     }
 
@@ -93,7 +93,7 @@ export default function Resultados() {
     }
 
     async function searchName(text) {
-        return await axios.get('/api/search?nombre=' + text);
+        return await axios.get('/api/services/search?nombre=' + text);
     }
 
     useEffect(() => {
