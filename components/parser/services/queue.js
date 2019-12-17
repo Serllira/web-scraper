@@ -4,7 +4,7 @@ const fetchStuff = require('./fetchStuff');
 const JSQueue = require('js-queue');
 const {PerformanceObserver, performance} = require('perf_hooks');
 // const fs = require('fs');
-const Database = require('../../../public/webscraperfrontend/app');
+const Database = require('../../../db');
 
 const db = new Database();
 

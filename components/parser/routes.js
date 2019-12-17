@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Queue = require('./services/queue');
-const Database = require('../../public/webscraperfrontend/app');
+const Database = require('../../db');
 
 const db = new Database();
 let queue = new Queue();
